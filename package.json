@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-solygen",
+  "version": "0.1.0",
+  "description": "solygen's eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "1.7.3"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solygen/eslint-config-solygen.git"
+  },
+  "author": "Frank Paczynski <frank.paczynski@solygen.de> (https://github.com/solygen)",
+  "license": "unlicense",
+  "homepage": "https://github.com/solygen",
+  "bugs": {
+    "url": "https://github.com/solygen/eslint-config-solygen/issues"
+  }
+}
