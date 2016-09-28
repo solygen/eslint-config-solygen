@@ -23,7 +23,7 @@ module.exports = {
     // this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
     'id-length': 0,
     // this option sets a specific tab width for your code
-    'indent': [2, 4, {"SwitchCase": 1}],
+    'indent': [2, 4, {'SwitchCase': 1}],
     // specify whether double or single quotes should be used in JSX attributes
     'jsx-quotes': 2,
     // enforces spacing between keys and values in object literal properties
@@ -89,17 +89,15 @@ module.exports = {
     // sort variables within the same declaration block
     'sort-vars': 0,
     // require a space after certain keywords
-    'space-after-keywords': 2,
+    'keyword-spacing' : {'before': true, 'after': true},
     // require or disallow space before blocks
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis
-    'space-before-function-paren': [2, {"anonymous": "always", "named": "never"}],
+    'space-before-function-paren': [2, {'anonymous': 'always', 'named': 'never'}],
     // require or disallow spaces inside parentheses
     'space-in-parens': 0,
     // require spaces around operators
     'space-infix-ops': 2,
-    // require a space after return, throw, and case
-    'space-return-throw-case': 2,
     // Require or disallow spaces before/after unary operators
     'space-unary-ops': 0,
     // require or disallow a space immediately following the // or /* in a comment

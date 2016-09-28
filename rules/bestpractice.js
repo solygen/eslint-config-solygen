@@ -29,9 +29,9 @@ module.exports = {
     // disallow else after a return in an if
     'no-else-return': 2,
     // disallow use of labels for anything other then loops and switches
-    'no-empty-label': 2,
+    'no-labels': [{ 'allowLoop': false }, { 'allowSwitch': false }],
     // disallow comparisons to null without a type-checking operator
-    'no-eq-null': 0,
+    'no-eq-null': 2,
     // disallow use of eval()
     'no-eval': 2,
     // disallow adding to native types
@@ -47,7 +47,7 @@ module.exports = {
     // disallow use of eval()-like methods
     'no-implied-eval': 2,
     // disallow this keywords outside of classes or class-like objects
-    'no-invalid-this': 0,
+    'no-invalid-this': 2,
     // disallow usage of __iterator__ property
     'no-iterator': 2,
     // disallow use of labeled statements
@@ -57,7 +57,7 @@ module.exports = {
     // disallow creation of functions within loops
     'no-loop-func': 2,
     // disallow use of multiple spaces
-    'no-multi-spaces': 0,
+    'no-multi-spaces': 2,
     // disallow use of multiline strings
     'no-multi-str': 2,
     // disallow reassignments of native objects
@@ -93,6 +93,7 @@ module.exports = {
     'no-throw-literal': 2,
     // disallow usage of expressions in statement position
     'no-unused-expressions': 2,
+    'no-unused-vars': 2,
     // disallow unnecessary .call() and .apply()
     'no-useless-call': 2,
     // disallow use of void operator
